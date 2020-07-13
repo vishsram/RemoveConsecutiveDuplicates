@@ -41,5 +41,11 @@ namespace RemoveDuplicates
         {
             Assert.AreEqual("123", dupRemover.RemoveConsecutiveDuplicates("111111222223333333333"));
         }
+
+        [Test]
+        public void RemoveDup_Numbers_Test6()
+        {
+            Assert.AreEqual("PQRST", dupRemover.RemoveConsecutiveDuplicates("PQRST"));
+        }
     }
 }
